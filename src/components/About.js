@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {forwardRef} from 'react'
 
-export default function About() {
+function About(props) {
     return (
-        <div className='bg-[#E2B714] text-[#323437] px-5 py-10'>
-            <p className='text-4 text-center p-4'>Hey, Thank you for showing interest!</p>
+        <div ref={props.aboutRef} className='bg-[#E2B714] text-[#323437] px-5 py-10'>
+            <p className='text-3 text-center p-2'>Hey, Thank you for showing interest!</p>
 
             <p className='text-2 text-center p-2'>I'm an experienced full stack engineer with a demonstrated history of creating software solutions for
                 businesses and the problems you see around yourself. Besides, I'm pursuing my bachelor's degree in Computer Science and Engineering from
@@ -20,3 +20,5 @@ export default function About() {
         </div >
     )
 }
+
+export default forwardRef(About);

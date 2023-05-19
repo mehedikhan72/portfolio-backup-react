@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {forwardRef} from 'react'
 
-export default function Skills() {
+function Skills(props) {
     return (
-        <div className='m-5 p-5 '>
+        <div ref={props.skillsRef} className='m-5 p-5 '>
             <p className='text-5 text-center'>Skills</p>
             <p className='text-center text-3 py-5'>I love to learn new technologies everyday. Here are some
                 of the technologies and frameworks I'm comfortable with. It's inconvenient to name all of them here.</p>
@@ -62,3 +62,6 @@ export default function Skills() {
         </div>
     )
 }
+
+export default forwardRef(Skills)
+

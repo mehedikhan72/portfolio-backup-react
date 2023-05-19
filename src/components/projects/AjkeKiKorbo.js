@@ -36,7 +36,7 @@ export default function AjkeKiKorbo() {
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <button onClick={toggleDetails} className='my-btns-2'>View Details</button>
+                    <button onClick={toggleDetails} className='my-btns-2 cursor-default'>View Details</button>
                 </div>
             </div>}
 
@@ -103,7 +103,7 @@ export default function AjkeKiKorbo() {
                 </p>
 
                 <div className='flex justify-center items-center'>
-                    <button onClick={toggleDetails} className='my-btns-2'>Hide Details</button>
+                    <button onClick={toggleDetails} className='my-btns-2 cursor-default'>Hide Details</button>
                 </div>
 
             </div>}
