@@ -47,10 +47,10 @@ export default function Images(props) {
     }, [currentIndex])
 
     return (
-        <div>
+        <div className='my-10'>
             {images.length !== 0 && <div
-                className={!detailed ? 'h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] w-screen xl:w-[600px] xl:h-[400px] object-cover relative group px-3 py-10' :
-                    'h-[200px] sm:h-[400px] md:h-[500px] lg:h-[700px] xl:h-[900px] object-cover relative group md:p-5 xl:p-10'}
+                className={!detailed ? 'h-[300px] sm:h-[400px] md:h-[500px] lg:h-[700px] w-screen xl:w-[600px] xl:h-[400px] object-cover relative group px-4' :
+                    'h-[200px] sm:h-[400px] md:h-[500px] lg:h-[700px] xl:h-[900px] 2xl:h-[1080px] object-cover relative group md:p-5 xl:p-10'}
             >
                 <div style={{ backgroundImage: `url(${`${images[currentIndex]}`})` }} className='w-full h-full rounded-lg bg-center bg-cover duration-500'></div>
                 <div>

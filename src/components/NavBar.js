@@ -35,10 +35,10 @@ export default function NavBar(props) {
   return (
     <div className='text-[#323437] bg-[#E2B714] z-50'>
       <div className='flex justify-between p-6'>
-        <div className='flex justify-center items-center text-3'>
+        <a href="https://mehedikhan72.github.io/" className='flex justify-center items-center text-3 cursor-pointer'>
           <p className=''>Mehedi</p>
           <p className='text-white'>Khan</p>
-        </div>
+        </a>
         <div className='hidden md:flex justify-center items-center'>
           <p onClick={() => props.scrollToSection(props.aboutRef)} className='px-4 text-2 cursor-pointer'>About</p>
           <p onClick={() => props.scrollToSection(props.skillsRef)} className='px-4 text-2' cursor-pointer>Skills</p>

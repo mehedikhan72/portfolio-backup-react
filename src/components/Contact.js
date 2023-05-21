@@ -5,7 +5,11 @@ function Contact(props) {
         <div ref={props.contactRef} className='m-5'>
             <p className='text-4 text-center px-5'>Interested in working with me?</p>
             {/* TODO: email link here */}
-            <p className='text-3 text-center p-5'>Please email me at lopingcard@gmail.com</p>
+            <div className='flex justify-center flew-wrap items-center p-5'>
+                <p className='text-3 text-center px-2'>Please email me at</p>
+                <a href='mailto:lopingcard@gmail.com' className='text-4 text-center hover:text-indigo-500 hover:underline'>lopingcard@gmail.com</a>
+            </div>
+
         </div>
     )
 }

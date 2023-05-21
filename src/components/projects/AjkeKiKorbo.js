@@ -12,16 +12,16 @@ export default function AjkeKiKorbo() {
         <div className='p-5'>
             {!detailsOn && <div>
                 <div className='flex flex-col xl:flex-row justify-center items-center'>
-                    <div  className='w-full xl:w-1/2'>
+                    <div className='w-full xl:w-1/2'>
                         <div className='flex justify-start items-center text-4'>
                             <i class='bx bxs-folder' ></i>
                             <p className='px-2 py-2'>AjkeKiKorbo</p>
-                            <button className='my-btns-2 hidden md:block'>Live</button>
-                            <button className='my-btns-2 hidden md:block'>Github</button>
+                            <a target='_blank' rel='noopener noreferrer' href="https://ajkekikorbo.pythonanywhere.com/" className='my-btns-2 hidden md:block'>Live</a>
+                            <a target='_blank' rel='noopener noreferrer' href="https://github.com/mehedikhan72/AjkeKiKorbo" className='my-btns-2 hidden md:block'>Github</a>
                         </div>
                         <div className='flex justify-start items-center text-4'>
-                            <button className='my-btns-2 md:hidden block'>Live</button>
-                            <button className='my-btns-2 md:hidden block'>Github</button>
+                            <a target='_blank' rel='noopener noreferrer' href="https://ajkekikorbo.pythonanywhere.com/" className='my-btns-2 md:hidden block'>Live</a>
+                            <a target='_blank' rel='noopener noreferrer' href="https://github.com/mehedikhan72/AjkeKiKorbo" className='my-btns-2 md:hidden block'>Github</a>
                         </div>
 
                         <p className='text-2 pb-5'>
@@ -44,6 +44,12 @@ export default function AjkeKiKorbo() {
                 <div className='flex justify-start items-center text-4'>
                     <i class='bx bxs-folder' ></i>
                     <p className='px-2 py-2'>AjkeKiKorbo</p>
+                    <a target='_blank' rel='noopener noreferrer' href="https://ajkekikorbo.pythonanywhere.com/" className='my-btns-2 hidden md:block'>Live</a>
+                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/mehedikhan72/AjkeKiKorbo" className='my-btns-2 hidden md:block'>Github</a>
+                </div>
+                <div className='flex justify-start items-center text-4'>
+                    <a target='_blank' rel='noopener noreferrer' href="https://ajkekikorbo.pythonanywhere.com/" className='my-btns-2 md:hidden block'>Live</a>
+                    <a target='_blank' rel='noopener noreferrer' href="https://github.com/mehedikhan72/AjkeKiKorbo" className='my-btns-2 md:hidden block'>Github</a>
                 </div>
                 <p className='text-2 pb-5'>
                     AjkeKiKorbo is a day planner app which lets you plan your days and complete your tasks easily.
@@ -53,29 +59,6 @@ export default function AjkeKiKorbo() {
 
                 <p className='text-3 py-2'>&gt;_Tech Used</p>
                 <p className='text-2 pb-5'>Django, Jinja, Vanilla JS, Chart JS, HTML, CSS, Bootstrap, Github.</p>
-
-                <p className='text-3 py-2'>&gt;_Background</p>
-                <p className='text-2 pb-5'>
-                    November, 22. I had my CS50W course's final project due.
-                    I always wanted to make programs that would solve problems, regardless the size of them.
-                </p>
-                <p className='text-2 pb-5'>
-                    So I had been using a diary as my to-do list for almost 2 years and I faced some difficulties
-                    with it like forgetting to write down the tasks and so on. There are many todo applications
-                    available online but they seemed quite complex but I needed a simpler one. So, to come up with a solution
-                    to this problem, I made this app which also served as a final project to the CS50W course.
-                </p>
-
-                <p className='text-3 py-2'>&gt;_Functionality</p>
-                <p className='text-2 pb-5'>
-                    'AjkeKiKorbo'(An English translation would be 'What to do today?') is an app that lets you plan your
-                    day(and the next) and help you achieve your goals by keeping track of the tasks that you complete
-                    and the tasks that are yet to be completed.You can generalize this as a 'todo' app. However, what
-                    makes this better is that this app can track your progress and let you see how you've been doing.
-                    There is a reminder feature as well, where you can have as many reminders as you want and the app
-                    will show them to you in various pages in a random order. There are some other features as well but
-                    they are for you to find out and hopefully more features will be available in the future.
-                </p>
 
                 <p className='text-3 py-2'>&gt;_Gallery</p>
                 <div>

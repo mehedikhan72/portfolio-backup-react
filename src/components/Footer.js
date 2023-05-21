@@ -11,10 +11,10 @@ export default function Footer() {
             </p>
 
             <div className='flex justify-center items-center m-5'>
-                <i className='p-2 text-4xl cursor-pointer bx bxl-linkedin-square' ></i>
-                <i className='p-2 text-4xl cursor-pointer bx bxl-github' ></i>
-                <i className='p-2 text-4xl cursor-pointer bx bxl-facebook-circle' ></i>
-                <i className='p-2 text-4xl cursor-pointer bx bxl-instagram-alt' ></i>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.linkedin.com/in/mehedikhan72/'><i className='p-2 text-4xl cursor-pointer bx bxl-linkedin-square' ></i></a>
+                <a target='_blank' rel='noopener noreferrer' href='https://github.com/mehedikhan72'><i className='p-2 text-4xl cursor-pointer bx bxl-github' ></i></a>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.facebook.com/MrTeflonXD/'><i className='p-2 text-4xl cursor-pointer bx bxl-facebook-circle' ></i></a>
+                <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/mehedikhan_/'><i className='p-2 text-4xl cursor-pointer bx bxl-instagram-alt' ></i></a >
             </div>
 
             <p className='text-1 text-center'>© 2023 Mehedi Khan. All rights reserved.</p>
